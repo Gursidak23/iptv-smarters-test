@@ -1,0 +1,96 @@
+.class public Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity$j;
+.super Landroid/os/AsyncTask;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "j"
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity;
+
+
+# direct methods
+.method public constructor <init>(Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity$j;->a:Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity;
+
+    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public varargs a([Ljava/lang/String;)Ljava/lang/Boolean;
+    .locals 0
+
+    .line 1
+    :try_start_0
+    iget-object p1, p0, Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity$j;->a:Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity;
+
+    invoke-static {p1}, Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity;->G1(Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity;)Ljava/lang/Boolean;
+
+    move-result-object p1
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    return-object p1
+
+    :catch_0
+    sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    return-object p1
+.end method
+
+.method public b(Ljava/lang/Boolean;)V
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Landroid/os/AsyncTask;->onPostExecute(Ljava/lang/Object;)V
+
+    iget-object p1, p0, Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity$j;->a:Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity;
+
+    invoke-static {p1}, Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity;->H1(Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, [Ljava/lang/String;
+
+    invoke-virtual {p0, p1}, Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity$j;->a([Ljava/lang/String;)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic onPostExecute(Ljava/lang/Object;)V
+    .locals 0
+
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-virtual {p0, p1}, Lcom/nst/iptvsmarterstvbox/view/activity/VodAllDataSingleActivity$j;->b(Ljava/lang/Boolean;)V
+
+    return-void
+.end method
+
+.method public onPreExecute()V
+    .locals 0
+
+    invoke-super {p0}, Landroid/os/AsyncTask;->onPreExecute()V
+
+    return-void
+.end method

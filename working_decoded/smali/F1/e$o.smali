@@ -1,0 +1,112 @@
+.class public LF1/e$o;
+.super Lz1/e;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LF1/e;->v(Lv1/f;Lv1/l;LF1/h;Ly1/a;)Lz1/e;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic d:Lv1/f;
+
+.field public final synthetic e:Lv1/l;
+
+.field public final synthetic f:LF1/h;
+
+.field public final synthetic g:Ly1/a;
+
+.field public final synthetic h:LF1/e;
+
+
+# direct methods
+.method public constructor <init>(LF1/e;Ljava/util/concurrent/Executor;Lv1/f;Lv1/l;LF1/h;Ly1/a;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, LF1/e$o;->h:LF1/e;
+
+    .line 2
+    .line 3
+    iput-object p3, p0, LF1/e$o;->d:Lv1/f;
+
+    .line 4
+    .line 5
+    iput-object p4, p0, LF1/e$o;->e:Lv1/l;
+
+    .line 6
+    .line 7
+    iput-object p5, p0, LF1/e$o;->f:LF1/h;
+
+    .line 8
+    .line 9
+    iput-object p6, p0, LF1/e$o;->g:Ly1/a;
+
+    .line 10
+    .line 11
+    invoke-direct {p0, p2}, Lz1/e;-><init>(Ljava/util/concurrent/Executor;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic d()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, LF1/e$o;->e()Lv1/i;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public e()Lv1/i;
+    .locals 5
+
+    .line 1
+    iget-object v0, p0, LF1/e$o;->h:LF1/e;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, LF1/e$o;->d:Lv1/f;
+
+    .line 4
+    .line 5
+    iget-object v2, p0, LF1/e$o;->e:Lv1/l;
+
+    .line 6
+    .line 7
+    iget-object v3, p0, LF1/e$o;->f:LF1/h;
+
+    .line 8
+    .line 9
+    iget-object v4, p0, LF1/e$o;->g:Ly1/a;
+
+    .line 10
+    .line 11
+    invoke-static {v0, v1, v2, v3, v4}, LF1/e;->B(LF1/e;Lv1/f;Lv1/l;LF1/h;Ly1/a;)Lv1/i;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    return-object v0
+.end method

@@ -1,0 +1,11 @@
+.class public abstract Lg0/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static a:I = 0x7f040093
+
+.field public static b:I = 0x7f0404ac
+
+.field public static c:I = 0x7f0404c2

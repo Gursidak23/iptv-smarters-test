@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rl_password_verification" android:background="#de12161e" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="500.0dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20.0dp" app:cardMaxElevation="10.0dp" app:cardUseCompatPadding="true">
+            <RelativeLayout android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <RelativeLayout android:id="@id/ll_expandable" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+                    <TextView android:textSize="22.0dp" android:textColor="@color/black" android:id="@id/tv_parental_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Genre" android:drawablePadding="7.0dp" android:drawableStart="@drawable/cast_genre" android:fontFamily="@string/font_family_medium" android:layout_marginStart="25.0dp" />
+                    <ImageView android:id="@id/iv_div" android:background="@color/black" android:layout_width="match_parent" android:layout_height="2.0px" android:layout_marginTop="15.0dp" android:layout_below="@id/tv_parental_password" />
+                    <ScrollView android:id="@id/sv_casts_info" android:layout_width="wrap_content" android:layout_height="200.0dp" android:layout_marginTop="10.0dp" android:layout_below="@id/iv_div">
+                        <requestFocus />
+                        <TextView android:textSize="18.0sp" android:id="@id/tv_genre_info_popup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dp" android:layout_marginStart="25.0dp" android:layout_marginEnd="25.0dp" />
+                    </ScrollView>
+                    <Button android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/bt_close" android:tag="5" android:background="@drawable/black_button_dark" android:focusable="true" android:layout_width="150.0dp" android:layout_height="40.0dp" android:layout_marginTop="25.0dp" android:layout_marginBottom="20.0dp" android:text="@string/close" android:layout_below="@id/sv_casts_info" android:layout_centerInParent="true" />
+                </RelativeLayout>> </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>
